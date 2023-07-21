@@ -1,0 +1,679 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	color: #000000;
+	background: url(images/bg.png);
+	background-attachment: fixed;
+}
+#index_hero{
+	width: 100%;
+	height: 980px;
+}
+#nav{
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+.result{
+	width: 85%;
+	height: 50px;
+	text-align: right;
+	background: linear-gradient(90deg,rgba(255,238,58,0) 0,#ffee3a 30%,#ffee3a 100%);
+	font-size: 30px;
+	text-decoration: none;
+	color: #000000;
+	float: right;
+}
+#hero_text{
+	width: 510px;
+	margin-top: 300px;
+	padding: 35px;
+	font-size: 18px;
+	background: rgba(255,255,255,.8);
+	float: left;
+}
+#hero_title{
+	width: 900px;
+	height: 161px;
+	margin-top: 630px;
+	margin-left: -582px;
+	background: url(images/hero_title.svg);
+	background-size: 100% auto;
+	float: left;
+}
+#hero_credit{
+	width: 240px;
+	height: 50px;
+	margin-top: 820px;
+	margin-left: -870px;
+	float: left;
+}
+#hero_img:before{
+	position: absolute;
+	left: 650px;
+	content: "";
+	background: url(images/hero_img1.png) top;
+	width: 826px;
+	height: 992px;
+	z-index: -1;
+}
+#hero_img:after{
+	position: absolute;
+	left: 1476px;
+	content: "";
+	background: url(images/hero_img2.png) top;
+	width: 300px;
+	height: 992px;
+	z-index: -1;
+}
+#content{
+	width: 100%;
+	margin-top: 100px;
+}
+#content2{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#button_div1{
+	width: 100%;
+}
+.button1{
+	display: block;
+	width: 92%;
+	padding: 40px;
+	border-radius: 200px;
+	font-size: 2.5rem;
+	text-decoration: none;
+	text-align: center;
+	color: #333333;
+	background-color: #FEED3A;
+	transition: 0.2s;
+}
+.button1:hover{
+	transition: 0.2s;
+	color: #8A8757;
+	background-color: #FFFCD3;
+}
+#index_report{
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
+}
+#index_report2{
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
+}
+#news_top1{
+	width: 90%;
+	padding: 50px;
+	background-color: #FFFFFF;
+}
+#news_top1:before{
+	content: "2020.12.18";
+	width: 232px;
+	padding: 10px;
+	margin-left: -95%;
+	margin-top: -20%;
+	font-size: 25px;
+	display: inline-block;
+	font-weight: bold;
+	background-color: #D62967;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+.button2{
+	text-decoration: none;
+	color: #2469D0;
+}
+.button2:hover{
+	color: #94BBF5;
+}
+#news_top2{
+	width: 90%;
+	padding: 50px;
+	margin-top: 10%;
+	background-color: #FFFFFF;
+}
+#news_top2:before{
+	content: "2020.12.10";
+	width: 200px;
+	padding: 10px;
+	margin-left: -95%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	font-weight: bold;
+	background-color: #D62967;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+#news_top3{
+	width: 90%;
+	padding: 50px;
+	margin-top: 10%;
+	background-color: #FFFFFF;
+}
+#news_top3:before{
+	content: "2020.12.3";
+	width: 200px;
+	padding: 10px;
+	margin-left: -95%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	font-weight: bold;
+	background-color: #D62967;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+#news_top4{
+	width: 90%;
+	padding: 50px;
+	margin-top: 10%;
+	background-color: #FFFFFF;
+}
+#news_top4:before{
+	content: "2020.12.1";
+	width: 200px;
+	padding: 10px;
+	margin-left: -95%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	font-weight: bold;
+	background-color: #D62967;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+#index_detail{
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
+}
+#overview1{
+	width: 90%;
+	padding: 50px;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#overview1:before{
+	content: "募集内容";
+	width: 120px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+li{
+	margin-top: 2%;
+}
+.span1{
+	color: #FFFFFF;
+	padding: 8px;
+	background-color: #333333;
+}
+#overview2{
+	width: 90%;
+	padding: 50px;
+	text-align: left;
+	margin-top: 10%;
+	background-color: #FFFFFF;
+}
+#overview2:before{
+	content: "募集期間";
+	width: 120px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+.span2{
+	text-decoration: line-through;
+	color: #999999;
+}
+.span3{
+	color: #D62967;
+}
+#overview3{
+	width: 90%;
+	padding: 50px;
+	text-align: left;
+	margin-top: 10%;
+	background-color: #FFFFFF;
+}
+#overview3:before{
+	content: "主催";
+	width: 60px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+#overview4{
+	width: 90%;
+	padding: 50px;
+	text-align: left;
+	margin-top: 10%;
+	background-color: #FFFFFF;
+}
+#overview4:before{
+	content: "協力";
+	width: 60px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+#about_textalive{
+	width: 90%;
+	padding: 50px;
+	text-align: left;
+	margin-top: 10%;
+	background: rgba(0,0,0,.08);
+}
+#index_music{
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
+}
+#music1{
+	width: 90%;
+	height: 230px;
+	padding: 50px;
+	margin-top: 8%;
+	background-color: #FFFFFF;
+}
+.music_left{
+	width: 40%;
+	float: left;
+}
+.button3{
+	text-decoration: none;
+	color: #2469D0;
+}
+.button3:hover{
+	color: #7EB2FF;
+}
+.music_right{
+	width: 40%;
+	float: right;
+}
+#music2{
+	width: 90%;
+	height: 230px;
+	padding: 50px;
+	margin-top: 5%;
+	background-color: #FFFFFF;
+}
+#music3{
+	width: 90%;
+	height: 230px;
+	padding: 50px;
+	margin-top: 5%;
+	background-color: #FFFFFF;
+}
+#index_app{
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
+}
+#requirements1{
+	width: 90%;
+	padding: 50px;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#requirements1:before{
+	content: "参加資格";
+	width: 130px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+.button4{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: center;
+	width: 35%;
+	border-radius: 50px;
+	border: 1px solid #333333;
+	color: #333333;
+	text-decoration: none;
+	transition: 0.3s;
+}
+.button4:hover{
+	background-color: #333333;
+	color: #FFFFFF;
+}
+#requirements2{
+	width: 90%;
+	padding: 50px;
+	margin-top: 8%;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#requirements2:before{
+	content: "参加費";
+	width: 90px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+#requirements3{
+	width: 90%;
+	padding: 50px;
+	margin-top: 8%;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#requirements3:before{
+	content: "投稿形式";
+	width: 130px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+#requirements4{
+	width: 90%;
+	padding: 50px;
+	margin-top: 8%;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#requirements4:before{
+	content: "応募先";
+	width: 90px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+#requirements5{
+	width: 90%;
+	padding: 50px;
+	margin-top: 8%;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#requirements5:before{
+	content: "審査の流れ";
+	width: 180px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+.span4{
+	text-decoration: line-through;
+}
+#requirements6{
+	width: 90%;
+	padding: 50px;
+	margin-top: 8%;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#requirements6:before{
+	content: "賞の種類 2020.10.23 追記";
+	width: 300px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+#requirements7{
+	width: 90%;
+	padding: 50px;
+	margin-top: 8%;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#requirements7:before{
+	content: "審査基準";
+	width: 150px;
+	padding: 10px;
+	margin-left: -10%;
+	margin-top: -20%;
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	background-color: #333333;
+	transform: skew(-15deg);
+	color: #FFFFFF;
+}
+.span5{
+	color: #FFFFFF;
+	padding: 15px;
+	background: url(images/bg_examination_01.png);
+}
+.span6{
+	color: #FFFFFF;
+	padding: 15px;
+	background: url(images/bg_examination_02.png);
+}
+.span7{
+	color: #FFFFFF;
+	padding: 15px;
+	background: url(images/bg_examination_03.png);
+}
+.button5{
+	margin-top: 8%;
+	display: block;
+	width: 92%;
+	padding: 40px;
+	cursor: pointer;
+	border-radius: 200px;
+	font-size: 1.5rem;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #AAAAAA;
+}
+#index_faq{
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
+}
+#school_official{
+	width: 90%;
+	height: 350px;
+	padding: 50px;
+	margin-top: 8%;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+#faq{
+	width: 90%;
+	padding: 50px;
+	margin-top: 8%;
+	text-align: left;
+	background-color: #FFFFFF;
+}
+.h4_1::first-letter{
+	color: #1FAEC5;
+	font-size: 30px;
+}
+.h4_2::first-letter{
+	color: #D62967;
+	font-size: 30px;
+}
+#adress_container{
+	width: 90%;
+	height: 150px;
+	padding: 50px;
+	margin-top: 8%;
+	text-align: left;
+}
+#adress1{
+	width: 41%;
+	padding: 30px;
+	text-align: center;
+	float: left;
+	background-color: #FFFFFF;
+}
+#adress2{
+	width: 41%;
+	padding: 30px;
+	text-align: center;
+	float: right;
+	background-color: #FFFFFF;
+}
+#share{
+	width: 90%;
+	padding: 50px;
+	margin-top: 8%;
+	text-align: center;
+}
+@media screen and (max-width: 420px){
+	#nav{
+		width: 239%;
+	}
+	#hero_title{
+		width: 900px;
+		height: 161px;
+		margin-top: 100px;
+		margin-left: 0px;
+		background: url(images/hero_title.svg);
+		background-size: 100% auto;
+		float: left;
+	}
+	#hero_credit{
+		width: 240px;
+		height: 50px;
+		margin-top: 290px;
+		margin-left: -870px;
+		float: left;
+	}
+	#hero_img:before{
+		position: absolute;
+		left: -124px;
+		content: "";
+		background: url(images/hero_img1.png) top;
+		width: 826px;
+		height: 992px;
+		z-index: -1;
+	}
+	#hero_img:after{
+		position: absolute;
+		left: 702px;
+		content: "";
+		background: url(images/hero_img2.png) top;
+		width: 300px;
+		height: 992px;
+		z-index: -1;
+	}
+	#news_top1:before{
+		margin-left: -80%;
+	}
+	#news_top2:before{
+		margin-left: -84%;
+	}
+	#news_top3:before{
+		margin-left: -84%;
+	}
+	#news_top4:before{
+		margin-left: -84%;
+	}
+	#overview1:before{
+		margin-left: -4%;
+	}
+	#overview2:before{
+		margin-left: -4%;
+	}
+	#overview3:before{
+		margin-left: -4%;
+	}
+	#overview4:before{
+		margin-left: -4%;
+	}
+	#requirements1:before{
+		margin-left: -4%;
+	}
+	#requirements2:before{
+		margin-left: -4%;
+	}
+	#requirements3:before{
+		margin-left: -4%;
+	}
+	#requirements4:before{
+		margin-left: -4%;
+	}
+	#requirements5:before{
+		margin-left: -4%;
+	}
+	#requirements6:before{
+		margin-left: -4%;
+	}
+	#requirements7:before{
+		margin-left: -4%;
+	}
+}
